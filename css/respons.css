@@ -1,0 +1,165 @@
+@media (max-width: 1200px){
+    .conteiner{
+        max-width: 960px;
+    }
+}
+@media (max-width: 992px){
+    .conteiner{
+        max-width: 850px;
+    }
+    .block-title{
+        margin-top: 4%;
+        max-width: 60%;
+    }
+    .title{
+        font-size: 30px;
+    }
+}
+@media (max-width: 880px){
+    .conteiner{
+        max-width: 740px;
+    }
+}
+@media (max-width: 768px){
+    .conteiner{
+        max-width: 90%;
+    }
+    .nav-link-item{
+        font-size: 12px;
+    }
+    .title{
+        font-size: 26px;
+    }
+    .product-name{
+        font-size: 26px;
+    }
+    .partner-card{
+        width: 240px;
+    }
+    .partner-block{
+        padding: 15px;
+    }
+    .feedback-input{
+        width: 350px;
+    }
+    .company_details-colum h6{
+        width: 25%;
+    }
+}
+@media (max-width: 670px){
+    .conteiner{
+        max-width: 95%;
+    }
+    .block-title{
+        padding-top: 10px;
+    }
+    .feedback-input{
+        width: 300px;
+    }
+    .partner-card{
+        width: 210px;
+    }
+    .partners-block{
+        padding: 10px 5px;
+    }
+}
+@media (max-width: 578px){
+    .conteiner{
+        max-width: 98%;
+    }
+    .header-bg{
+        padding-top: 5px;
+    }
+    .navbar{
+        padding: 5px 15px;
+    }
+    .phone{
+        display: none;
+    }
+    .search-block{
+        margin-top: 10px;
+    }
+    .company_details-colum span{
+        flex-direction: column;
+    }
+    .company_details-colum span:not(:last-child){
+        margin-bottom: 15px;
+    }
+    .company_details-colum h6{
+        color: #ffe600;
+    }
+    .company_details-colum span a{
+        color: red;
+    }
+    .partners-block{
+        flex-wrap: wrap;
+        padding: 20px 30px;
+    }
+    .partner-card:not(:last-child){
+        margin-bottom: 15px;
+    }
+    .feedback-block{
+        flex-wrap: wrap;
+    }
+    .feedback-block-form{
+        margin-top: 30px;
+    }
+    .footer{
+        flex-wrap: wrap;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media (max-width: 480px){
+    .conteiner{
+        max-width: 90%;
+    }
+    .nav-links{
+        display: none;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .social-links{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+    .social-link:not(:last-child){
+        margin-right: 30px;
+    }
+}
+@media (max-width: 320px){
+
+}
