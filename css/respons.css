@@ -39,9 +39,6 @@
     .partner-block{
         padding: 15px;
     }
-    .feedback-input{
-        width: 350px;
-    }
     .company_details-colum h6{
         width: 25%;
     }
@@ -52,9 +49,6 @@
     }
     .block-title{
         padding-top: 10px;
-    }
-    .feedback-input{
-        width: 300px;
     }
     .partner-card{
         width: 210px;
@@ -107,39 +101,6 @@
     .footer{
         flex-wrap: wrap;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 @media (max-width: 480px){
     .conteiner{
@@ -155,6 +116,9 @@
         margin-top: 20px;
         display: flex;
         flex-direction: row;
+    }
+    .feedback-block-form{
+        width: 100%;
     }
     .social-link:not(:last-child){
         margin-right: 30px;

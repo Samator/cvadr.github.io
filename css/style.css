@@ -321,68 +321,6 @@ body{
     font-size: 16px;
     padding: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .feedback-title{
     text-align: center;
     font-family: 'Oswald', sans-serif;
@@ -415,6 +353,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 50%;
 }
 .feedback-input{
     border: 1px solid rgb(117, 116, 116);
@@ -425,7 +364,7 @@ body{
     -o-border-radius: 5px;
     padding: 5px 10px;
     font-size: 18px;
-    width: 450px;
+    width: 100%;
     resize: none;
 }
 .feedback-input:not(:last-child){
@@ -594,7 +533,7 @@ body{
     display: block;
     width: 80px;
     height: 80px;
-    background-image: url("../img/logo.png");
+    background-image: url("../img/footer/footer-logo.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
