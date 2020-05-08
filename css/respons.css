@@ -102,12 +102,27 @@
         flex-wrap: wrap;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 480px){
     .conteiner{
-        max-width: 90%;
+        max-width: 95%;
     }
     .nav-links{
         display: none;
+    }
+    .block-title{
+        max-width: 100%;
     }
     .footer{
         flex-direction: column;
