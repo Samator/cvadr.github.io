@@ -140,5 +140,7 @@
     }
 }
 @media (max-width: 320px){
-
+    .block-title{
+        max-width: 100%;
+    }
 }
