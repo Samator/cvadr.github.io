@@ -16,7 +16,7 @@ body{
     background-color: rgb(56, 55, 55);
 }
 .block{
-    box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 5px 5px 15px 5px #fff;
 }
 .header-bg{
     background-image: url("../img/hero-bg.jpg");
