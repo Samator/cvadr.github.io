@@ -138,6 +138,9 @@
     .social-link:not(:last-child){
         margin-right: 30px;
     }
+    .company_details-block{
+        padding: 30px 5px;
+    }
 }
 @media (max-width: 320px){
     .block-title{
