@@ -118,6 +118,14 @@
     .conteiner{
         max-width: 95%;
     }
+    .menu-btn{
+        display: block;
+        position: absolute;
+        right: 10px;
+    }
+    .navbar{
+        justify-content: space-between;
+    }
     .nav-links{
         display: none;
     }
@@ -137,9 +145,6 @@
     }
     .social-link:not(:last-child){
         margin-right: 30px;
-    }
-    .company_details-block{
-        padding: 30px 5px;
     }
 }
 @media (max-width: 320px){
