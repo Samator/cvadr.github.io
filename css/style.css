@@ -134,11 +134,12 @@ body{
 
 
 .menu-block{
-    margin-left: 160%;
+    display: none;
+    left: 160%;
     position: absolute;
     margin-right: 0px;
     width: 60%;
-    height: 70vh;
+    height: 80vh;
     background-color: rgba(22, 22, 22, 0.8);
     transition: 0.7s;
     -webkit-transition: 0.7s;
@@ -147,6 +148,7 @@ body{
     -o-transition: 0.7s;
 }
 .menu-list{
+    margin-top: 10%;
     position: relative;
 }
 .menu-list li{
@@ -163,7 +165,8 @@ body{
 }
 
 .menu-block-active{
-    margin-left: 40%;
+    display: block;
+    left: 40%;
 }
 
 
