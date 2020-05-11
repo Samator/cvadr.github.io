@@ -4,3 +4,7 @@ menuBtn.addEventListener('click',function(event){
     menuBtn.classList.toggle('menu-active');
     menuBlock.classList.toggle('menu-block-active');
 });
+
+
+const scrollTop = document.querySelector('.scroll-btn');
+window.addEventListener('scroll', trackScroll);
