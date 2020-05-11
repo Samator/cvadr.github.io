@@ -168,6 +168,7 @@ body{
     -o-border-radius: 50%;
     left: 75%;
     top: 90%;
+    z-index: 9999;
 }
 
 
