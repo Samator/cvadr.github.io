@@ -4,6 +4,7 @@
 /* font-family: 'Oswald', sans-serif; */
 *{
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 .conteiner{
     max-width: 1180px;
@@ -18,7 +19,7 @@ body{
 .header-bg{
     background-image: url("../img/hero-bg.jpg");
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: top right;
     background-size: cover;
     height: 97vh;
     padding-top: 20px;
@@ -60,6 +61,33 @@ body{
 .nav-link-item:not(:last-child){
     margin-right: 3%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -135,6 +163,7 @@ body{
 
 .menu-block{
     display: none;
+    left: 160%;
     position: absolute;
     margin-right: 0px;
     width: 60%;
@@ -162,6 +191,80 @@ body{
     text-decoration: none;
     color: #fff;
 }
+.contacts-menu-block{
+    margin-top: 30px;
+}
+.contacts-menu-block li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.contacts-menu-block a{
+    display: flex;
+    align-items: center;
+}
+.contacts-number:before{
+    content: ' ';
+    width: 18px;
+    height: 18px;
+    background-image: url("../img/footer/phone.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    margin-right: 10px;
+}
+.contacts-adress:before{
+    content: ' ';
+    width: 18px;
+    height: 18px;
+    background-image: url("../img/footer/map.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    margin-right: 10px;
+}
+.contacts-email:before{
+    content: ' ';
+    width: 18px;
+    height: 18px;
+    background-image: url("../img/footer/email.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .menu-block-active{
     display: block;
@@ -287,7 +390,7 @@ body{
     align-items: center;
   }
   .product-block-img{
-      width: 85%;
+      width: 80%;
       height: 100%;
       display: flex;
       flex-direction: column;
@@ -351,6 +454,8 @@ body{
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    text-decoration: none;
+    color: #000;
 }
 .product-text{
     display: flex;
@@ -401,9 +506,33 @@ body{
     font-size: 20px;
     color: #ffad00;
 }
+.about_us{
 
-
-
+}
+.about_us-title{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: #ffad00;
+}
+.about_us-text p{
+    color: #fff;
+    font-size: 18px;
+}
+.about_us-text{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: rgba(225, 225, 225, 0.4);
+    padding: 30px;
+    color: #fff;
+    margin-bottom: 50px;
+}
 
 
 
