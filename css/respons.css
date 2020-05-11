@@ -87,6 +87,10 @@
     .phone{
         display: none;
     }
+    .phone-button{
+        display: block;
+        margin-right: 15%;
+    }
     .search-block{
         margin-top: 10px;
     }

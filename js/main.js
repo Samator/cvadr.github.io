@@ -23,7 +23,7 @@ function trackScroll() {
   }
 function toTop() {
     if (window.pageYOffset > 0) {
-      window.scrollBy(0,document.documentElement.scrollTop );
+      window.scrollBy(0, -99999 );
       setTimeout(backToTop, 0);
     }
   }
